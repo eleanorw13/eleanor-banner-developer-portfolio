@@ -1,0 +1,13 @@
+-- Override registration restrictions for specific students
+BEGIN
+  FOR rec IN (
+    SELECT student_id
+    FROM registration_requests
+    WHERE override_needed = 'Y'
+  ) LOOP
+    UPDATE banner_registration
+    SET override_flag = 'Y'
+    WHERE student_id = rec.student_id;
+  END LOOP;
+  COMMIT;
+END;
