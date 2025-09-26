@@ -1,0 +1,8 @@
+-- Generate mock student records for testing
+BEGIN
+  FOR i IN 1..10 LOOP
+    INSERT INTO test_students (student_id, first_name, last_name, term_code)
+    VALUES ('T' || TO_CHAR(i, 'FM000'), 'Test', 'Student' || i, '202530');
+  END LOOP;
+  COMMIT;
+END;
