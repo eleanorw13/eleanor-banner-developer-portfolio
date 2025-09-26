@@ -1,0 +1,9 @@
+-- Track Banner patch deployment history
+SELECT patch_id,
+       module_name,
+       deployed_by,
+       deployed_on,
+       status
+FROM banner_patch_log
+WHERE deployed_on >= SYSDATE - 90
+ORDER BY deployed_on DESC;
