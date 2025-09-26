@@ -1,0 +1,11 @@
+-- Calculate aid eligibility based on EFC and enrollment status
+SELECT s.student_id,
+       s.enrollment_status,
+       f.efc,
+       CASE
+         WHEN f.efc <= 5000 THEN 'PELL_ELIGIBLE'
+         ELSE 'NOT_ELIGIBLE'
+       END AS aid_status
+FROM student_enrollment s
+JOIN financial_profile f ON s.student_id = f.student_id
+WHERE s.term_code = '202530';
