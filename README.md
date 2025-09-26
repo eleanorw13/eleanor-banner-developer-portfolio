@@ -3,15 +3,15 @@
 ![Higher Ed](https://img.shields.io/badge/Industry-Higher%20Education-purple)
 ![Open to Work](https://img.shields.io/badge/Open%20to-Banner%20Developer%20Roles-orange)
 
-# 👩‍💻 Eleanor Wai – Banner Developer Portfolio
+# Eleanor Wai – Banner Developer Portfolio
 
-👋 Hi, I'm Eleanor Wai – an ERP Developer specializing in Ellucian Banner systems for higher education.
+Hi, I'm Eleanor Wai – an ERP Developer specializing in Ellucian Banner systems for higher education.
 
-🔧 I build scalable, user-focused solutions using PL/SQL, Oracle Forms, and Unix scripting.  
-🎓 My background spans system analysis, technical support, and cross-functional collaboration in academic and enterprise environments.  
-📦 Explore my [Banner Developer Portfolio](https://github.com/eleanorw13/eleanor-banner-developer-portfolio) to see featured projects and sample code.
+I build scalable, user-focused solutions using PL/SQL, Oracle Forms, and Unix scripting.  
+My background spans system analysis, technical support, and cross-functional collaboration in academic and enterprise environments.  
+Explore my [Banner Developer Portfolio](https://github.com/eleanorw13/eleanor-banner-developer-portfolio) to see featured projects and sample code.
 
-📍 Based in New York, NY | Open to Banner & ERP roles 
+Based in New York, NY | Open to Banner & ERP roles 
 
 
 ## Featured Projects
